@@ -7,6 +7,14 @@
         {
             "type": "cobol",
             "request": "launch",
+            "name": "COBOL (native)",
+            "program": "${workspaceFolder}/<insert-program-name-here>",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": true
+        },
+        {
+            "type": "cobol",
+            "request": "launch",
             "name": "COBOL (native): Launch",
             "program": "${workspaceFolder}/<insert-program-name-here>",
             "cwd": "${workspaceFolder}",
